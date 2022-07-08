@@ -13,5 +13,15 @@ Link: ![Git](https://git-scm.com/images/logo@2x.png)Downloads
 GitBash commands 
 
 - mkdir [nome]: cria uma nova pasta.
+
 - echo > [nomeArquivo.extensão]: cria um arquivo.
+
 - git status: mostra a situação tempo real do repositório.
+
+- git commit -m "colocar uma mensagem": "commita" no repositório local
+
+  📝 **Nota:** A mensagem deve ser coerente com o que está sendo "commitado"
+
+- git push origin main ou master: empurra para o repositório remoto (GitHub).
+
+- 
