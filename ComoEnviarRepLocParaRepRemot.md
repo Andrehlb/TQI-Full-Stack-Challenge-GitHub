@@ -48,13 +48,13 @@ Downloads: [Windows](https://git-scm.com/download/win) | [macOS](https://git-scm
 
 **3) Clonagem do repositório criado**
 
-Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e copiar o link HTTPS (Figura 2). Na máquina, deve-se criar uma pasta 📂 para receber o conteúdo clonado do repositório remoto do GitHub. Nete caso foi criada a pasta 📂 TQI_Full_Stack_Challenge.
+ Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e copiar o link HTTPS (Figura 2). Na máquina, deve-se criar uma pasta 📂 para receber o conteúdo clonado do repositório remoto do GitHub. Nete caso foi criada a pasta 📂 TQI_Full_Stack_Challenge.
 
 ![image](https://user-images.githubusercontent.com/100593932/178079363-1f7c97fd-11da-4dcb-977a-46250c692c4d.png)
 
  **Figura 2. Aba <>Code, com o acesso ao link HTTPS a ser copiado para a clonagem a partir do repositório remoto para o local.**
 
- 	A clonagem tem por objetivo desenvolver a capacidade de gerenciar o repositório criado no GitHub e conectá-lo ao repositório local. Para ser feita a clonagem no repositório local (na máquina) usou-se o terminal GitBash. Para tal procedimento deve-se usar o comando:
+ A clonagem tem por objetivo desenvolver a capacidade de gerenciar o repositório criado no GitHub e conectá-lo ao repositório local. Para ser feita a clonagem no repositório local (na máquina) usou-se o terminal GitBash. Para tal procedimento deve-se usar o comando:
 
 `git clone <link HTTPS do repositório criado, copiado anteriormente>`
 
