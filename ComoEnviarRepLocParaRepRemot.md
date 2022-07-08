@@ -89,7 +89,7 @@ Downloads: [Windows](https://git-scm.com/download/win) | [macOS](https://git-scm
 
 **Figura 5. Uso do comando add.**
 
- 	O procedimento feito acima (Figura 5) somente adicionou o objeto, no caso o arquivo, no repositório local, como pode ser observado pelo status do arquivo de extensão *.md (Figura 6), aonde o terminal retorna com a informação de que o arquivo, saiu da condição "untracked" (Figura 4) para situação stage (Figura 6) e que está pronto para ser commitado, o que significa dizer que o arquivo está pronto para ser transferido para o repositório remoto.
+  O procedimento feito acima (Figura 5) somente adicionou o objeto, no caso o arquivo, no repositório local, como pode ser observado pelo status do arquivo de extensão *.md (Figura 6), aonde o terminal retorna com a informação de que o arquivo, saiu da condição "untracked" (Figura 4) para situação stage (Figura 6) e que está pronto para ser commitado, o que significa dizer que o arquivo está pronto para ser transferido para o repositório remoto.
 
 ![image](https://user-images.githubusercontent.com/100593932/178079499-c1cea23d-c418-430e-8bd8-404157b5de0f.png)
 
@@ -109,11 +109,12 @@ Downloads: [Windows](https://git-scm.com/download/win) | [macOS](https://git-scm
 
 **6) Empurrando objetos commitados para o repositório remoto do GitHub** 
 
- 	Então, foi feito um commit local e agora será feito um push para empurrar os objetos para o repositório remoto no GitHub. O comando usado foi:
+
+ Então, foi feito um commit local e agora será feito um push para empurrar os objetos para o repositório remoto no GitHub. O comando usado foi:
 
 `git push origin main`
 
- 	Neste caso origin é uma convenção e main se refere ao status do local no repositório que pode variar, para master, por exemplo, este assunto é abordado no curso introdutório ao Git e GitHub da Dio.me mencionado anteriormente. O resultado observado no terminal do GitBash é a porcentagem de conversão do número total de objetos e o apontamento para o local HTTPS que estará os objetos commitados (Figura 8).
+ Neste caso origin é uma convenção e main se refere ao status do local no repositório que pode variar, para master, por exemplo, este assunto é abordado no curso introdutório ao Git e GitHub da Dio.me mencionado anteriormente. O resultado observado no terminal do GitBash é a porcentagem de conversão do número total de objetos e o apontamento para o local HTTPS que estará os objetos commitados (Figura 8).
 
 ![image](https://user-images.githubusercontent.com/100593932/178079529-20625af3-03ff-4681-8e06-d73310ae1c26.png)
 
