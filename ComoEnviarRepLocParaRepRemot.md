@@ -1,6 +1,6 @@
 ​											**Repositório do Bootcamp TQI Full Stack, pela Dio.me**
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\TQIFullStack.jpg)
+![image](https://user-images.githubusercontent.com/100593932/178079208-c419c9e5-ee54-4853-b081-c17a54f4a494.png)
 
 ​	Como fazer a criação de um repositório próprio, referente às atividades desenvolvidas no Bootcamp TQI Full Stack pela Dio.me, como parte do desafio de projeto de criação, atualização e sincronização de repositório remoto com repositório local.
 
@@ -42,25 +42,25 @@ Downloads: [Windows](https://git-scm.com/download/win) | [macOS](https://git-scm
 
  Na Figura 1 pode-se observar os locais indicados pelas setas para o procedimento de criação do repositório remoto diretamente no site do GitHub, neste link: [Create a New Repository (github.com)](https://github.com/new) 
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Criando Repositório no GitHub.png)
+![image](https://user-images.githubusercontent.com/100593932/178079320-303932a4-82c3-4927-84e8-cf73f20d9024.png)
 
 **Figura 1. página do GitHub para a criação de um novo repositório, de cima para baixo, as setas indicam o nome a ser dado ao repositório, o status público (se assim for decidido) e a inserção de um arquivo README.**
 
 **3) Clonagem do repositório criado**
 
-Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e copiar o link HTTPS (Figura 2). Na máquina, deve-se criar uma pasta 📂 para receber o conteúdo clonado do repositório remoto do GitHub. Nete caso foi criada a pasta 📂 TQI_Full_Stack_Challenge.
+ Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e copiar o link HTTPS (Figura 2). Na máquina, deve-se criar uma pasta 📂 para receber o conteúdo clonado do repositório remoto do GitHub. Nete caso foi criada a pasta 📂 TQI_Full_Stack_Challenge.
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Acesso ao link HTTPS no GitHub.png)
+![image](https://user-images.githubusercontent.com/100593932/178079363-1f7c97fd-11da-4dcb-977a-46250c692c4d.png)
 
  **Figura 2. Aba <>Code, com o acesso ao link HTTPS a ser copiado para a clonagem a partir do repositório remoto para o local.**
 
- 	A clonagem tem por objetivo desenvolver a capacidade de gerenciar o repositório criado no GitHub e conectá-lo ao repositório local. Para ser feita a clonagem no repositório local (na máquina) usou-se o terminal GitBash. Para tal procedimento deve-se usar o comando:
+ A clonagem tem por objetivo desenvolver a capacidade de gerenciar o repositório criado no GitHub e conectá-lo ao repositório local. Para ser feita a clonagem no repositório local (na máquina) usou-se o terminal GitBash. Para tal procedimento deve-se usar o comando:
 
 `git clone <link HTTPS do repositório criado, copiado anteriormente>`
 
 ​	Após teclar [ENTER] o resultado será como observado na Figura 3. Pode-se observar o apontamento da clonagem ("Cloning into") e a porcentagem do total de objetos agora alocados no repositório local (Figura 3).
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\execução de comando clone.png)
+![image](https://user-images.githubusercontent.com/100593932/178079422-fafab1e6-d790-4bdb-997f-dd9138569d2e.png)
 
 **Figura 3. Terminal GitBash com a execução de comando para clonagem de repositório e a mensagem do resultado deste procedimento.**
 
@@ -73,7 +73,7 @@ Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e 
 `git ls`
 `git status`
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Status untracked do arquivo.png)
+![image](https://user-images.githubusercontent.com/100593932/178079445-fd547897-18f9-40ad-979d-f4630d76eb68.png)
 
 **Figura 4. Estado "untracked" identificado para o arquivo, na pasta criada no repositório local.**
 
@@ -85,13 +85,13 @@ Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e 
 
 ​	Outros comandos add com a mesma função poderiam ser usados, como: git add -A ou git add * ou git add **. A mensagem que aparece no terminal (Figura 5) é referente a quebra de linha, não interferindo no procedimento.
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Uso do comando add.png)
+![image](https://user-images.githubusercontent.com/100593932/178079471-6a0f836e-1221-4de9-b691-c23de89214e8.png)
 
 **Figura 5. Uso do comando add.**
 
- 	O procedimento feito acima (Figura 5) somente adicionou o objeto, no caso o arquivo, no repositório local, como pode ser observado pelo status do arquivo de extensão *.md (Figura 6), aonde o terminal retorna com a informação de que o arquivo, saiu da condição "untracked" (Figura 4) para situação stage (Figura 6) e que está pronto para ser commitado, o que significa dizer que o arquivo está pronto para ser transferido para o repositório remoto.
+  O procedimento feito acima (Figura 5) somente adicionou o objeto, no caso o arquivo, no repositório local, como pode ser observado pelo status do arquivo de extensão *.md (Figura 6), aonde o terminal retorna com a informação de que o arquivo, saiu da condição "untracked" (Figura 4) para situação stage (Figura 6) e que está pronto para ser commitado, o que significa dizer que o arquivo está pronto para ser transferido para o repositório remoto.
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Status stage do arquivo.png)
+![image](https://user-images.githubusercontent.com/100593932/178079499-c1cea23d-c418-430e-8bd8-404157b5de0f.png)
 
 **Figura 6. Status stage do arquivo criado, pronto para ser commitado (estado commit).**
 
@@ -103,19 +103,20 @@ Após criar o repositório, ir na aba <>Code e do lado direito clicar em Code e 
 
 ​	Após o "commit" do arquivo, pode-se observar que a main e o sha do arquivo (ver processo sha em introdução ao Git e GitHub) no repositório local foi criado e a quantidade de itens é apresentada (Figura 7). Uma verificação do status é feita pelo comando git status, que mostra que não há mais objetos em situação "untracked" ou "stage", mas agora em estado "commit"'. Também é possível observar que o terminal do Gitbash mostra a mensagem da próxima etapa, empurrar tudo que foi "commitado" para o repositório remoto, usando-se o comando push (Figura 7).
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Uso do comando commit e o Status dos objetos no repositório local.png)
+![image](https://user-images.githubusercontent.com/100593932/178079513-2044c5f5-ab2f-4435-9ec4-b5d939c13c64.png)
 
 **Figura 7. Uso do comando commit e o Status dos objetos no repositório local.**
 
 **6) Empurrando objetos commitados para o repositório remoto do GitHub** 
 
- 	Então, foi feito um commit local e agora será feito um push para empurrar os objetos para o repositório remoto no GitHub. O comando usado foi:
+
+ Então, foi feito um commit local e agora será feito um push para empurrar os objetos para o repositório remoto no GitHub. O comando usado foi:
 
 `git push origin main`
 
- 	Neste caso origin é uma convenção e main se refere ao status do local no repositório que pode variar, para master, por exemplo, este assunto é abordado no curso introdutório ao Git e GitHub da Dio.me mencionado anteriormente. O resultado observado no terminal do GitBash é a porcentagem de conversão do número total de objetos e o apontamento para o local HTTPS que estará os objetos commitados (Figura 8).
+ Neste caso origin é uma convenção e main se refere ao status do local no repositório que pode variar, para master, por exemplo, este assunto é abordado no curso introdutório ao Git e GitHub da Dio.me mencionado anteriormente. O resultado observado no terminal do GitBash é a porcentagem de conversão do número total de objetos e o apontamento para o local HTTPS que estará os objetos commitados (Figura 8).
 
-![](C:\Users\andre\OneDrive\Imagens\TQI_Full_Stack\Uso do comando push .png)
+![image](https://user-images.githubusercontent.com/100593932/178079529-20625af3-03ff-4681-8e06-d73310ae1c26.png)
 
 **Figura 8. Uso do comando push para empurrar objetos commitados para o repositório remoto no GitHub.**
 
